@@ -69,21 +69,21 @@ var food = [
 		"calories":240,
 		"price":1.3
 	},
-	11:{
+	{
 		"restaurant":1,
 		"name":"DEEP FRIED TURKEY GOBBLER"
 		"calories":780,
 		"protein":54,
 		"price":1.3
 	},
-	12:{
+	{
 		"restaurant":1,
 		"name":"CAJUN DEEP FRIED TURKEY"
 		"calories":430,
 		"protein":25,
 		"price":1.3
 	},
-	13:{
+	{
 		"restaurant":1,
 		"name":"DEEP FRIED TURKEY CLUB"
 		"calories":540,

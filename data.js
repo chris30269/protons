@@ -71,24 +71,24 @@ var food = [
 	},
 	{
 		"restaurant":1,
-		"name":"DEEP FRIED TURKEY GOBBLER"
+		"name":"DEEP FRIED TURKEY GOBBLER",
 		"calories":780,
 		"protein":54,
 		"price":1.3
 	},
 	{
 		"restaurant":1,
-		"name":"CAJUN DEEP FRIED TURKEY"
+		"name":"CAJUN DEEP FRIED TURKEY",
 		"calories":430,
 		"protein":25,
 		"price":1.3
 	},
 	{
 		"restaurant":1,
-		"name":"DEEP FRIED TURKEY CLUB"
+		"name":"DEEP FRIED TURKEY CLUB",
 		"calories":540,
-		"protein":34
-		"calories":240,
+		"protein":34,
+		"calories":540,
 		"price":1.3
 	}
 ];

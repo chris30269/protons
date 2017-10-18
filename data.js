@@ -58,6 +58,24 @@ var food = {
 		"name":"roast beef n cheese slider",
 		"protein":14,
 		"calories":240
+	},
+	11:{
+		"restaurant":1,
+		"name":"DEEP FRIED TURKEY GOBBLER"
+		"calories":780,
+		"protein":54
+	},
+	12:{
+		"restaurant":1,
+		"name":"CAJUN DEEP FRIED TURKEY"
+		"calories":430,
+		"protein":25
+	},
+	13:{
+		"restaurant":1,
+		"name":"DEEP FRIED TURKEY CLUB"
+		"calories":540,
+		"protein":34
 	}
 };
 

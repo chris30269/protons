@@ -215,6 +215,83 @@ var food = [
 		"calories":500,
 		"protein":19,
 		"price":1.3
+	},
+	{
+		"restaurant":2,
+		"name":"Fiesta Taco Salad - Chicken",
+		"calories":720,
+		"protein":32,
+		"price":1.3
+	},
+	{
+		"restaurant":2,
+		"name":"Cheesy Gordita Crunch",
+		"calories":500,
+		"protein":20,
+		"price":1.3
+	},
+	{
+		"restaurant":2,
+		"name":"Gordita Supreme - Chicken",
+		"calories":260,
+		"protein":16,
+		"price":1.3
+	},
+	{
+		"restaurant":2,
+		"name":"Shredded Chicken Mini Quesadilla",
+		"calories":200,
+		"protein":10,
+		"price":1.3
+	},
+	{
+		"restaurant":2,
+		"name":"Nacho Cheese Doritos Locos Taco",
+		"calories":170,
+		"protein":8,
+		"price":1.3
+	},
+	{
+		"restaurant":3,
+		"name":"CARBmaster Greek Yogurt",
+		"calories":80,
+		"protein":14,
+		"price":1.3
+	},
+	{
+		"restaurant":3,
+		"name":"Kirkland Canned Chicken Breast",
+		"calories":210,
+		"protein":45.5,
+		"price":1.3
+	},
+	{
+		"restaurant":3,
+		"name":"Kirkland Protein Bar",
+		"calories":190,
+		"protein":21,
+		"price":1.3
+	},
+	{
+		"restaurant":3,
+		"name":"Zone Perfect Bar",
+		"calories":210,
+		"protein":14,
+		"price":1.3
+	},
+	{
+		"restaurant":3,
+		"name":"Chocolate Fairlife",
+		"calories":140,
+		"protein":13,
+		"price":1.3
+	},
+	{
+		"restaurant":3,
+		"name":"CARBmaster Vanilla Milk",
+		"calories":60,
+		"protein":11,
+		"price":1.3
 	}
 ];
 
@@ -227,5 +304,5 @@ var restaurants = {
  	0:"coral",
  	1:"#d71921",
  	2:"#8328b2",
- 	3:"lightgrey"
+ 	3:"grey"
  };

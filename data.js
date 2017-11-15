@@ -392,18 +392,356 @@ var food = [
 		"price":1.3,
 		"breakfast":true
 	},
+	{
+		"restaurant":5,
+		"name":"Big Mac",
+		"calories":540,
+		"protein":25,
+		"price":1.3,
+		"breakfast":false
+	},
+	{
+		"restaurant":5,
+		"name":"Quarter Pounder with Cheese",
+		"calories":520,
+		"protein":30,
+		"price":1.3,
+		"breakfast":false
+	},
+	{
+		"restaurant":5,
+		"name":"Bacon Clubhouse Burger",
+		"calories":720,
+		"protein":39,
+		"price":1.3,
+		"breakfast":false
+	},
+	{
+		"restaurant":5,
+		"name":"Quarter Pounder Bacon Habanero Ranch",
+		"calories":610,
+		"protein":37,
+		"price":1.3,
+		"breakfast":false
+	},
+	{
+		"restaurant":5,
+		"name":"Quarter Pounder Bacon & Cheese",
+		"calories":600,
+		"protein":37,
+		"price":1.3,
+		"breakfast":false
+	},
+	{
+		"restaurant":5,
+		"name":"Quarter Pounder Deluxe",
+		"calories":540,
+		"protein":29,
+		"price":1.3,
+		"breakfast":false
+	},
+	{
+		"restaurant":5,
+		"name":"Double Quarter Pounder with Cheese",
+		"calories":750,
+		"protein":48,
+		"price":1.3,
+		"breakfast":false
+	},
+	{
+		"restaurant":5,
+		"name":"Hamburger",
+		"calories":240,
+		"protein":12,
+		"price":1.3,
+		"breakfast":false
+	},
+	{
+		"restaurant":5,
+		"name":"Cheeseburger",
+		"calories":290,
+		"protein":15,
+		"price":1.3,
+		"breakfast":false
+	},
+	{
+		"restaurant":5,
+		"name":"BBQ Ranch Burger",
+		"calories":340,
+		"protein":15,
+		"price":1.3,
+		"breakfast":false
+	},
+	{
+		"restaurant":5,
+		"name":"Double Cheeseburger",
+		"calories":430,
+		"protein":24,
+		"price":1.3,
+		"breakfast":false
+	},
+	{
+		"restaurant":5,
+		"name":"McDouble",
+		"calories":380,
+		"protein":22,
+		"price":1.3,
+		"breakfast":false
+	},
+	{
+		"restaurant":5,
+		"name":"Bacon Clubhouse Crispy Chicken Sandwich",
+		"calories":750,
+		"protein":36,
+		"price":1.3,
+		"breakfast":false
+	},
+	{
+		"restaurant":5,
+		"name":"Bacon Clubhouse Grilled Chicken Sandwich",
+		"calories":590,
+		"protein":40,
+		"price":1.3,
+		"breakfast":false
+	},
+	{
+		"restaurant":5,
+		"name":"Premium Crispy Chicken Classic Sandwich",
+		"calories":510,
+		"protein":24,
+		"price":1.3,
+		"breakfast":false
+	},
+	{
+		"restaurant":5,
+		"name":"Premium Grilled Chicken Classic Sandwich",
+		"calories":350,
+		"protein":28,
+		"price":1.3,
+		"breakfast":false
+	},
+	{
+		"restaurant":5,
+		"name":"McChicken",
+		"calories":360,
+		"protein":14,
+		"price":1.3,
+		"breakfast":false
+	},
+	{
+		"restaurant":5,
+		"name":"McRib",
+		"calories":500,
+		"protein":22,
+		"price":1.3,
+		"breakfast":false
+	},
+	{
+		"restaurant":5,
+		"name":"Premium McWrap Southwest Chicken (Grilled)",
+		"calories":520,
+		"protein":31,
+		"price":1.3,
+		"breakfast":false
+	},
+	{
+		"restaurant":5,
+		"name":"Premium McWrap Chicken & Bacon (Grilled)",
+		"calories":480,
+		"protein":36,
+		"price":1.3,
+		"breakfast":false
+	},
+	{
+		"restaurant":5,
+		"name":"Premium McWrap Chicken & Ranch (Grilled)",
+		"calories":450,
+		"protein":30,
+		"price":1.3,
+		"breakfast":false
+	},
+	{
+		"restaurant":5,
+		"name":"Premium McWrap Chicken Sweet Chili (Grilled)",
+		"calories":380,
+		"protein":27,
+		"price":1.3,
+		"breakfast":false
+	},
+	{
+		"restaurant":5,
+		"name":"Chipotle BBQ Snack Wrap (Grilled)",
+		"calories":260,
+		"protein":16,
+		"price":1.3,
+		"breakfast":false
+	},
+	{
+		"restaurant":5,
+		"name":"Honey Mustard Snack Wrap (Grilled)",
+		"calories":250,
+		"protein":16,
+		"price":1.3,
+		"breakfast":false
+	},
+	{
+		"restaurant":5,
+		"name":"Ranch Snack Wrap (Grilled)",
+		"calories":280,
+		"protein":16,
+		"price":1.3,
+		"breakfast":false
+	},
+	{
+		"restaurant":5,
+		"name":"10 Chicken McNuggets",
+		"calories":470,
+		"protein":22,
+		"price":1.3,
+		"breakfast":false
+	},
+	{
+		"restaurant":5,
+		"name":"Southern Style Crispy Chicken Sandwich",
+		"calories":430,
+		"protein":21,
+		"price":1.3,
+		"breakfast":false
+	},
+	{
+		"restaurant":5,
+		"name":"Premium Bacon Ranch Salad with Grilled Chicken",
+		"calories":220,
+		"protein":29,
+		"price":1.3,
+		"breakfast":false
+	},
+	{
+		"restaurant":5,
+		"name":"Premium Southwest Salad with Grilled Chicken",
+		"calories":290,
+		"protein":27,
+		"price":1.3,
+		"breakfast":false
+	},
+	{
+		"restaurant":5,
+		"name":"Mighty Wings (10 piece)",
+		"calories":960,
+		"protein":60,
+		"price":1.3,
+		"breakfast":false
+	},
+	{
+		"restaurant":5,
+		"name":"Egg McMuffin",
+		"calories":300,
+		"protein":17,
+		"price":1.3,
+		"breakfast":true
+	},
+	{
+		"restaurant":5,
+		"name":"Egg White Delight",
+		"calories":250,
+		"protein":18,
+		"price":1.3,
+		"breakfast":true
+	},
+	{
+		"restaurant":5,
+		"name":"Sausage McMuffin",
+		"calories":370,
+		"protein":14,
+		"price":1.3,
+		"breakfast":true
+	},
+	{
+		"restaurant":5,
+		"name":"Sausage McMuffin with Egg",
+		"calories":450,
+		"protein":21,
+		"price":1.3,
+		"breakfast":true
+	},
+	{
+		"restaurant":5,
+		"name":"Steak & Egg McMuffin",
+		"calories":430,
+		"protein":26,
+		"price":1.3,
+		"breakfast":true
+	},
+	{
+		"restaurant":5,
+		"name":"Steak & Egg Biscuit (Regular Biscuit)",
+		"calories":540,
+		"protein":25,
+		"price":1.3,
+		"breakfast":true
+	},
+	{
+		"restaurant":5,
+		"name":"Sausage, Egg & Cheese McGriddles",
+		"calories":550,
+		"protein":20,
+		"price":1.3,
+		"breakfast":true
+	},
+	{
+		"restaurant":5,
+		"name":"Bacon, Egg & Cheese Bagel",
+		"calories":620,
+		"protein":30,
+		"price":1.3,
+		"breakfast":true
+	},
+	{
+		"restaurant":5,
+		"name":"Steak, Egg & Cheese Bagel",
+		"calories":670,
+		"protein":33,
+		"price":1.3,
+		"breakfast":true
+	},
+	{
+		"restaurant":5,
+		"name":"Big Breakfast with Hotcakes (Regular Size Biscuit)",
+		"calories":1090,
+		"protein":36,
+		"price":1.3,
+		"breakfast":true
+	},
+	{
+		"restaurant":5,
+		"name":"Sausage Burrito",
+		"calories":300,
+		"protein":12,
+		"price":1.3,
+		"breakfast":true
+	},
+	{
+		"restaurant":5,
+		"name":"Bacon, Egg & Cheese Bagel with Egg Whites",
+		"calories":570,
+		"protein":30,
+		"price":1.3,
+		"breakfast":true
+	},
 ];
 
 var restaurants = {
 	1:"Arby's",
 	2:"Taco Bell",
 	3:"Grocery",
-	4:"Chick-fil-A"
+	4:"Chick-fil-A",
+	5:"McDonalds"
 };
  var colors = {
  	0:"coral",
  	1:"#d71921",
  	2:"#8328b2",
  	3:"grey",
- 	4:"#dd0031"
+ 	4:"#dd0031",
+ 	5:"yellow"
  };

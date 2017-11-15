@@ -95,28 +95,32 @@ var food = [
 		"name":"Dressed Egg Taco - Bacon",
 		"calories":470,
 		"protein":20,
-		"price":1.3
+		"price":1.3,
+		"breakfast":true
 	},
 	{
 		"restaurant":2,
 		"name":"Dressed Egg Taco - Sausage",
 		"calories":460,
 		"protein":17,
-		"price":1.3
+		"price":1.3,
+		"breakfast":true
 	},
 	{
 		"restaurant":2,
 		"name":"Naked Egg Taco - Bacon",
 		"calories":310,
 		"protein":14,
-		"price":1.3
+		"price":1.3,
+		"breakfast":true
 	},
 	{
 		"restaurant":2,
 		"name":"Naked Egg Taco - Sausage",
 		"calories":300,
 		"protein":12,
-		"price":1.3
+		"price":1.3,
+		"breakfast":true
 	},
 	{
 		"restaurant":2,
@@ -186,28 +190,32 @@ var food = [
 		"name":"Breakfast Quesadilla - Steak",
 		"calories":500,
 		"protein":29,
-		"price":1.3
+		"price":1.3,
+		"breakfast":true
 	},
 	{
 		"restaurant":2,
 		"name":"Breakfast Crunchwrap - Sausage",
 		"calories":700,
 		"protein":21,
-		"price":1.3
+		"price":1.3,
+		"breakfast":true
 	},
 	{
 		"restaurant":2,
 		"name":"Grande Scrambler Burrito - Sausage",
 		"calories":640,
 		"protein":19,
-		"price":1.3
+		"price":1.3,
+		"breakfast":true
 	},
 	{
 		"restaurant":2,
 		"name":"Sausage Flatbread Quesadilla",
 		"calories":330,
 		"protein":14,
-		"price":1.3
+		"price":1.3,
+		"breakfast":true
 	},
 	{
 		"restaurant":2,
@@ -292,17 +300,110 @@ var food = [
 		"calories":60,
 		"protein":11,
 		"price":1.3
-	}
+	},
+	{
+		"restaurant":4,
+		"name":"Chick-fil-A Chicken Sandwich",
+		"calories":440,
+		"protein":28,
+		"price":1.3
+	},
+	{
+		"restaurant":4,
+		"name":"8 Chick-fil-A Nuggets",
+		"calories":260,
+		"protein":28,
+		"price":1.3
+	},
+	{
+		"restaurant":4,
+		"name":"3 Chick-n-Strips",
+		"calories":350,
+		"protein":28,
+		"price":1.3
+	},
+	{
+		"restaurant":4,
+		"name":"8 Grilled Nuggets",
+		"calories":140,
+		"protein":25,
+		"price":1.3
+	},
+	{
+		"restaurant":4,
+		"name":"Grilled Chicken Sandwich",
+		"calories":310,
+		"protein":29,
+		"price":1.3
+	},
+	{
+		"restaurant":4,
+		"name":"Chick-fil-A Chicken Biscuit",
+		"calories":450,
+		"protein":17,
+		"price":1.3,
+		"breakfast":true
+	},
+	{
+		"restaurant":4,
+		"name":"Egg White Grill",
+		"calories":300,
+		"protein":25,
+		"price":1.3,
+		"breakfast":true
+	},
+	{
+		"restaurant":4,
+		"name":"Chicken, Egg, & Cheese Bagel",
+		"calories":480,
+		"protein":27,
+		"price":1.3,
+		"breakfast":true
+	},
+	{
+		"restaurant":4,
+		"name":"Greek Yogurt Parfait - Cookie Crumbles",
+		"calories":210,
+		"protein":11,
+		"price":1.3,
+		"breakfast":true
+	},
+	{
+		"restaurant":4,
+		"name":"Greek Yogurt Parfait - Granola",
+		"calories":230,
+		"protein":12,
+		"price":1.3,
+		"breakfast":true
+	},
+	{
+		"restaurant":4,
+		"name":"Hash Brown Scramble Bowl",
+		"calories":450,
+		"protein":30,
+		"price":1.3,
+		"breakfast":true
+	},
+	{
+		"restaurant":4,
+		"name":"Hash Brown Scramble Burrito",
+		"calories":680,
+		"protein":35,
+		"price":1.3,
+		"breakfast":true
+	},
 ];
 
 var restaurants = {
 	1:"Arby's",
 	2:"Taco Bell",
-	3:"Grocery"
+	3:"Grocery",
+	4:"Chick-fil-A"
 };
  var colors = {
  	0:"coral",
  	1:"#d71921",
  	2:"#8328b2",
- 	3:"grey"
+ 	3:"grey",
+ 	4:"#dd0031"
  };

@@ -1,5 +1,9 @@
+body{
+  background-color: lightgrey;
+}
+
 .bar{
-	fill:blue;
+	
 }
 .bar:hover{
 	fill:lightblue;

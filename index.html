@@ -7,17 +7,33 @@
 </head>
 <body>
 	<h1>Protons</h1>
+    <div id="filters">
+        <input type="checkbox" id="breakfastCheck">
+        <label for="breakfastCheck">Breakfast</label>
+        <input type="checkbox" id="Arby'sCheck">
+        <label for="Arby'sCheck">Arby's</label>
+    </div>
 </body>
 <script type="text/javascript">
+    var filters = d3.select("input")
+        .data(restaurants)
+        .enter()
+        .append("input")
+            .attr("id", function(d, i){
+                return d.i+"check";
+            })
+            .attr("type", "checkbox");
+    console.log(filters);
     var barHeight = 50;
     var margin = {
         "left":40,
         "right":20,
         "top":20,
-        "bottom":20
+        "bottom":20,
+        "bars":10
     };
     var width = window.innerWidth*0.95;
-    var height = (barHeight*margin.top)*food.length;
+    var height = (barHeight+margin.bars)*food.length;
 
     var div = d3.select("body").append("div")
         .attr("class", "tooltip")
@@ -52,9 +68,9 @@
             .attr("width", function(d,i){
                 return x(proteinPerCalorie(d.protein, d.calories));
             })
-            .attr("height", barHeight*0.9)
+            .attr("height", barHeight)
             .attr("y",function(d,i){
-                return (i*barHeight)+margin.top;
+                return i*(barHeight+margin.bars)+margin.top;
             })
             .attr("x", function(d,i){
                 // return  x(proteinPerCalorie(d.protein, d.calories));
@@ -79,7 +95,7 @@
             .enter().append("text")
             .attr("class", "text")
             .attr("y", function(d, i){
-                return (i*barHeight)+margin.top+(0.5*barHeight);
+                return i*(barHeight+margin.bars)+margin.top+(0.5*barHeight);
             })
             .attr("x", function(d, i){
                 // return x(proteinPerCalorie(d.protein, d.calories));

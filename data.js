@@ -728,6 +728,14 @@ var food = [
 		"price":1.3,
 		"breakfast":true
 	},
+	{
+		"restaurant":1,
+		"name":"SMOKEHOUSE CHICKEN",
+		"calories":530,
+		"protein":30,
+		"price":1.3,
+		"breakfast":false
+	},
 ];
 
 var restaurants = {

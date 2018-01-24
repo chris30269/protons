@@ -736,6 +736,230 @@ var food = [
 		"price":1.3,
 		"breakfast":false
 	},
+	{
+		"restaurant":1,
+		"name":"THREE CHEESE STEAK SANDWICH",
+		"calories":650,
+		"protein":42,
+		"price":1.3,
+		"breakfast":false
+	},
+	{
+		"restaurant":1,
+		"name":"FIRE-ROASTED PHILLY",
+		"calories":640,
+		"protein":42,
+		"price":1.3,
+		"breakfast":false
+	},
+	{
+		"restaurant":3,
+		"name":"CARBmaster Chocolate Milk",
+		"calories":80,
+		"protein":11,
+		"price":1.3,
+		"breakfast":false
+	},
+	{
+		"restaurant":6,
+		"name":"Eggs & Cheese Protein Box",
+		"calories":460,
+		"protein":23,
+		"price":1.3,
+		"breakfast":false
+	},
+	{
+		"restaurant":6,
+		"name":"Smoked Turkey",
+		"calories":360,
+		"protein":24,
+		"price":1.3,
+		"breakfast":false
+	},
+	{
+		"restaurant":6,
+		"name":"BBQ Chicken",
+		"calories":420,
+		"protein":22,
+		"price":1.3,
+		"breakfast":false
+	},
+	{
+		"restaurant":6,
+		"name":"Chicken Wrap Protein Box",
+		"calories":460,
+		"protein":20,
+		"price":1.3,
+		"breakfast":false
+	},
+	{
+		"restaurant":6,
+		"name":"PB&J Protein Box",
+		"calories":520,
+		"protein":20,
+		"price":1.3,
+		"breakfast":false
+	},
+	{
+		"restaurant":6,
+		"name":"Cheese & Fruit Protein Box",
+		"calories":450,
+		"protein":20,
+		"price":1.3,
+		"breakfast":false
+	},
+	{
+		"restaurant":6,
+		"name":"Chicken & Quinoa Protein Bowl with Black Beans and Greens",
+		"calories":420,
+		"protein":27,
+		"price":1.3,
+		"breakfast":false
+	},
+	{
+		"restaurant":6,
+		"name":"Lentils & Vegetable Protein Bowl with Brown Rice",
+		"calories":650,
+		"protein":23,
+		"price":1.3,
+		"breakfast":false
+	},
+	{
+		"restaurant":6,
+		"name":"Ancho Chipotle Chicken Panini",
+		"calories":500,
+		"protein":26,
+		"price":1.3,
+		"breakfast":false
+	},
+	{
+		"restaurant":6,
+		"name":"Chicken & Double-Smoked Bacon",
+		"calories":620,
+		"protein":31,
+		"price":1.3,
+		"breakfast":false
+	},
+	{
+		"restaurant":6,
+		"name":"Chicken Artichoke on Ancient Grain Flatbread",
+		"calories":510,
+		"protein":24,
+		"price":1.3,
+		"breakfast":false
+	},
+	{
+		"restaurant":6,
+		"name":"Chicken BLT Salad Sandwich",
+		"calories":470,
+		"protein":21,
+		"price":1.3,
+		"breakfast":false
+	},
+	{
+		"restaurant":6,
+		"name":"Chicken Caprese",
+		"calories":500,
+		"protein":28,
+		"price":1.3,
+		"breakfast":false
+	},
+	{
+		"restaurant":6,
+		"name":"Egg Salad Sandwich",
+		"calories":480,
+		"protein":16,
+		"price":1.3,
+		"breakfast":false
+	},
+	{
+		"restaurant":6,
+		"name":"Tomato & Mozzarella",
+		"calories":350,
+		"protein":15,
+		"price":1.3,
+		"breakfast":false
+	},
+	{
+		"restaurant":6,
+		"name":"Turkey & Havarti Sandwich",
+		"calories":460,
+		"protein":29,
+		"price":1.3,
+		"breakfast":false
+	},
+	{
+		"restaurant":6,
+		"name":"Turkey Pesto Panini",
+		"calories":540,
+		"protein":33,
+		"price":1.3,
+		"breakfast":false
+	},
+	{
+		"restaurant":6,
+		"name":"Bacon, Gouda & Egg Breakfast Sandwich",
+		"calories":370,
+		"protein":18,
+		"price":1.3,
+		"breakfast":true
+	},
+	{
+		"restaurant":6,
+		"name":"Double-Smoked Bacon, Cheddar & Egg Sandwich",
+		"calories":490,
+		"protein":21,
+		"price":1.3,
+		"breakfast":true
+	},
+	{
+		"restaurant":6,
+		"name":"Reduced-Fat Turkey Bacon & Cage Free Egg White Breakfast Sandwich",
+		"calories":210,
+		"protein":18,
+		"price":1.3,
+		"breakfast":true
+	},
+	{
+		"restaurant":6,
+		"name":"Sausage, Cheddar & Egg Breakfast Sandwich",
+		"calories":500,
+		"protein":15,
+		"price":1.3,
+		"breakfast":true
+	},
+	{
+		"restaurant":6,
+		"name":"Sous Vide Egg Bites: Bacon & Gruyere",
+		"calories":310,
+		"protein":19,
+		"price":1.3,
+		"breakfast":true
+	},
+	{
+		"restaurant":6,
+		"name":"Sous Vide Egg Bites: Egg White & Red Pepper",
+		"calories":170,
+		"protein":13,
+		"price":1.3,
+		"breakfast":true
+	},
+	{
+		"restaurant":6,
+		"name":"Spicy Chorizo, Monterey Jack & Egg Breakfast Sandwich",
+		"calories":500,
+		"protein":26,
+		"price":1.3,
+		"breakfast":true
+	},
+	{
+		"restaurant":6,
+		"name":"Spinach, Feta & Cage Free Egg White Breakfast Wrap",
+		"calories":290,
+		"protein":19,
+		"price":1.3,
+		"breakfast":true
+	},
 ];
 
 var restaurants = {
@@ -743,7 +967,8 @@ var restaurants = {
 	2:"Taco Bell",
 	3:"Grocery",
 	4:"Chick-fil-A",
-	5:"McDonalds"
+	5:"McDonalds",
+	6:"Starbucks"
 };
  var colors = {
  	0:"coral",
@@ -751,5 +976,6 @@ var restaurants = {
  	2:"#8328b2",
  	3:"grey",
  	4:"#dd0031",
- 	5:"yellow"
+ 	5:"yellow",
+ 	6:"#006341"
  };

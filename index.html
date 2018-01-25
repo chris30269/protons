@@ -10,20 +10,33 @@
     <div id="filters">
         <input type="checkbox" id="breakfastCheck">
         <label for="breakfastCheck">Breakfast</label>
-        <input type="checkbox" id="Arby'sCheck">
-        <label for="Arby'sCheck">Arby's</label>
     </div>
 </body>
 <script type="text/javascript">
-    var filters = d3.select("input")
-        .data(restaurants)
-        .enter()
-        .append("input")
-            .attr("id", function(d, i){
-                return d.i+"check";
-            })
-            .attr("type", "checkbox");
-    console.log(filters);
+    d3.select("#breakfastCheck")
+        .on("click", function(){
+            if(d3.select(this).property("checked")){
+                d3.selectAll("rect[data-breakfast=true]").style("display", "block");
+            }
+            else{
+                d3.selectAll("rect[data-breakfast=true]").style("display", "none");
+            }
+        });
+    for (var key in restaurants){
+        d3.select("#filters").append("input")
+            .attr("id", restaurants[key]+"check")
+            .attr("type", "checkbox")
+            .property("checked", true)
+            .attr("data-restaurant", restaurants[key])
+            .on("click", function(d){
+                var resta = d3.select(this).attr("data-restaurant");
+                if(d3.select(this).property("checked")) d3.selectAll("rect[data-restaurant="+resta+"]").style("display", "block");
+                else d3.selectAll("rect[data-restaurant="+resta+"]").style("display", "none");
+            });
+        d3.select("#filters").append("label")
+            .attr("for", restaurants[key]+"check")
+            .html(restaurants[key]);
+    }
     var barHeight = 50;
     var margin = {
         "left":40,
@@ -61,6 +74,11 @@
         .data(food)
         .enter().append("rect")
             .attr("class", "bar")
+            .attr("data-restaurant", function(d){return restaurants[d.restaurant];})
+            .attr("data-breakfast", function(d){
+                if(d.breakfast) return "true";
+                else return "false";
+            })
             .attr("fill", function(d){
                 if(d.restaurant) return colors[d.restaurant];
                 else return "blue";

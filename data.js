@@ -960,6 +960,30 @@ var food = [
 		"price":1.3,
 		"breakfast":true
 	},
+	{
+		"restaurant":1,
+		"name":"HALF POUND FRENCH DIP & SWISS",
+		"calories":740,
+		"protein":55,
+		"price":1.3,
+		"breakfast":false
+	},
+	{
+		"restaurant":1,
+		"name":"GRAND TURKEY CLUB",
+		"calories":480,
+		"protein":30,
+		"price":1.3,
+		"breakfast":false
+	},
+	{
+		"restaurant":1,
+		"name":"PRIME-CUT™ CHICKEN TENDERS 5 PIECE",
+		"calories":600,
+		"protein":39,
+		"price":1.3,
+		"breakfast":false
+	},
 ];
 
 var restaurants = {

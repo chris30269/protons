@@ -2,13 +2,13 @@
 <head>
     <title>Protons</title>
     <link rel="stylesheet" type="text/css" href="style.css">
-	<script src="https://d3js.org/d3.v4.min.js"></script>
-	<script type="text/javascript" src="data.js"></script>
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script type="text/javascript" src="data.js"></script>
 </head>
 <body>
-	<h1>Protons</h1>
+    <h1>Protons</h1>
     <div id="filters">
-        <input type="checkbox" id="breakfastCheck">
+        <input type="checkbox" id="breakfastCheck" checked>
         <label for="breakfastCheck">Breakfast</label>
     </div>
 </body>
@@ -70,58 +70,7 @@
        return d3.descending(x.proteinPerCalorie, y.proteinPerCalorie);
     })
 
-    svg.selectAll("rect")
-        .data(food)
-        .enter().append("rect")
-            .attr("class", "bar")
-            .attr("data-restaurant", function(d){return restaurants[d.restaurant];})
-            .attr("data-breakfast", function(d){
-                if(d.breakfast) return "true";
-                else return "false";
-            })
-            .attr("fill", function(d){
-                if(d.restaurant) return colors[d.restaurant];
-                else return "blue";
-            })
-            .attr("width", function(d,i){
-                return x(proteinPerCalorie(d.protein, d.calories));
-            })
-            .attr("height", barHeight)
-            .attr("y",function(d,i){
-                return i*(barHeight+margin.bars)+margin.top;
-            })
-            .attr("x", function(d,i){
-                // return  x(proteinPerCalorie(d.protein, d.calories));
-                return margin.left;
-            })
-            .on("mouseover", function(d){
-                div.transition()
-                    .duration(200)
-                    .style("opacity", .9);
-                div.html(restaurants[d.restaurant] + "<br><span class='foodName'>"+ d.name +"</span><br>Protein: " + d.protein + "<br>Calories: " + d.calories + "<br>Protein/calorie: "+proteinPerCalorie(d.protein, d.calories))
-                    .style("left", (d3.event.pageX) + "px")
-                    .style("top", (d3.event.pageY - 28) + "px");
-            })
-            .on("mouseout", function(d) {
-                div.transition()
-                    .duration(500)
-                    .style("opacity", 0);
-            });
-
-    svg.selectAll("text")
-        .data(food)
-            .enter().append("text")
-            .attr("class", "text")
-            .attr("y", function(d, i){
-                return i*(barHeight+margin.bars)+margin.top+(0.5*barHeight);
-            })
-            .attr("x", function(d, i){
-                // return x(proteinPerCalorie(d.protein, d.calories));
-                return margin.left;
-            })
-            .text(function(d){
-                return d.name;
-            });
+    draw(food);
 
     svg.append("g")
         .attr("class", "x axis")
@@ -130,6 +79,61 @@
 
     function proteinPerCalorie(protein, calories){
         return Math.round(1000.0*protein/calories)/1000.0;
+    }
+
+    function draw(dataArray){
+        svg.selectAll("rect")
+            .data(dataArray)
+            .enter().append("rect")
+                .attr("class", "bar")
+                .attr("data-restaurant", function(d){return restaurants[d.restaurant];})
+                .attr("data-breakfast", function(d){
+                    if(d.breakfast) return "true";
+                    else return "false";
+                })
+                .attr("fill", function(d){
+                    if(d.restaurant) return colors[d.restaurant];
+                    else return "blue";
+                })
+                .attr("width", function(d,i){
+                    return x(proteinPerCalorie(d.protein, d.calories));
+                })
+                .attr("height", barHeight)
+                .attr("y",function(d,i){
+                    return i*(barHeight+margin.bars)+margin.top;
+                })
+                .attr("x", function(d,i){
+                    // return  x(proteinPerCalorie(d.protein, d.calories));
+                    return margin.left;
+                })
+                .on("mouseover", function(d){
+                    div.transition()
+                        .duration(200)
+                        .style("opacity", .9);
+                    div.html(restaurants[d.restaurant] + "<br><span class='foodName'>"+ d.name +"</span><br>Protein: " + d.protein + "<br>Calories: " + d.calories + "<br>Protein/calorie: "+proteinPerCalorie(d.protein, d.calories))
+                        .style("left", (d3.event.pageX) + "px")
+                        .style("top", (d3.event.pageY - 28) + "px");
+                })
+                .on("mouseout", function(d) {
+                    div.transition()
+                        .duration(500)
+                        .style("opacity", 0);
+                });
+
+        svg.selectAll("text")
+            .data(dataArray)
+                .enter().append("text")
+                .attr("class", "text")
+                .attr("y", function(d, i){
+                    return i*(barHeight+margin.bars)+margin.top+(0.5*barHeight);
+                })
+                .attr("x", function(d, i){
+                    // return x(proteinPerCalorie(d.protein, d.calories));
+                    return margin.left;
+                })
+                .text(function(d){
+                    return d.name;
+                });
     }
 
 </script>

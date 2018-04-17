@@ -984,6 +984,46 @@ var food = [
 		"price":1.3,
 		"breakfast":false
 	},
+	{
+		"restaurant":1,
+		"name":"TEXAS BRISKET",
+		"calories":620,
+		"protein":37,
+		"price":1.3,
+		"breakfast":false
+	},
+	{
+		"restaurant":1,
+		"name":"MIAMI CUBAN",
+		"calories":510,
+		"protein":38,
+		"price":1.3,
+		"breakfast":false
+	},
+	{
+		"restaurant":1,
+		"name":"DOUBLE REUBEN",
+		"calories":810,
+		"protein":55,
+		"price":1.3,
+		"breakfast":false
+	},
+	{
+		"restaurant":3,
+		"name":"Cliff Builder Bar (Chocolate Mint)",
+		"calories":270,
+		"protein":20,
+		"price":1.3,
+		"breakfast":false
+	},
+	{
+		"restaurant":3,
+		"name":"Kirkland Flatbread Chicken Melt",
+		"calories":160,
+		"protein":11,
+		"price":1.3,
+		"breakfast":false
+	},
 ];
 
 var restaurants = {

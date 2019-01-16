@@ -1024,6 +1024,62 @@ var food = [
 		"price":1.3,
 		"breakfast":false
 	},
+	{
+		"restaurant":3,
+		"name":"Gatorade Whey Protein with Almond Butter",
+		"calories":220,
+		"protein":20,
+		"price":1.3,
+		"breakfast":false
+	},
+	{
+		"restaurant":2,
+		"name":"Naked Chicken Chalupa",
+		"calories":440,
+		"protein":20,
+		"price":1.3,
+		"breakfast":false
+	},
+	{
+		"restaurant":2,
+		"name":"Chicken Enchilada Burrito",
+		"calories":370,
+		"protein":15,
+		"price":1.3,
+		"breakfast":false
+	},
+	{
+		"restaurant":2,
+		"name":"Three Cheese Nacho Burrito",
+		"calories":420,
+		"protein":14,
+		"price":1.3,
+		"breakfast":false
+	},
+	{
+		"restaurant":2,
+		"name":"Crunchwrap Supreme",
+		"calories":530,
+		"protein":16,
+		"price":1.3,
+		"breakfast":false
+	},
+	{
+		"restaurant":2,
+		"name":"Bean Burrito",
+		"calories":380,
+		"protein":14,
+		"price":1.3,
+		"breakfast":false
+	},
+	{
+		"restaurant":2,
+		"name":"Burrito Supreme - Chicken",
+		"calories":380,
+		"protein":20,
+		"price":1.3,
+		"breakfast":false
+	},
 ];
 
 var restaurants = {

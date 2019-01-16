@@ -98,7 +98,7 @@
         .call(xAxis);
 
     function proteinPerCalorie(protein, calories){
-        return Math.round(1000.0*protein/calories)/1000.0;
+        return Math.round(4*10000.0*protein/calories)/100.0;
     }
 
     function draw(dataArray){
@@ -132,7 +132,7 @@
                     div.transition()
                         .duration(200)
                         .style("opacity", .9);
-                    div.html(restaurants[d.restaurant] + "<br><span class='foodName'>"+ d.name +"</span><br>Protein: " + d.protein + "<br>Calories: " + d.calories + "<br>Protein/calorie: "+proteinPerCalorie(d.protein, d.calories))
+                    div.html(restaurants[d.restaurant] + "<br><span class='foodName'>"+ d.name +"</span><br>Protein: " + d.protein + "<br>Calories: " + d.calories + "<br>Protein density: "+proteinPerCalorie(d.protein, d.calories)+"%")
                         .style("left", (d3.event.pageX) + "px")
                         .style("top", (d3.event.pageY - 28) + "px");
                 })

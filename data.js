@@ -1080,6 +1080,30 @@ var food = [
 		"price":1.3,
 		"breakfast":false
 	},
+	{
+		"restaurant":3,
+		"name":"Wildscape Cilantro Lime Chicken",
+		"calories":400,
+		"protein":21,
+		"price":1.3,
+		"breakfast":false
+	},
+	{
+		"restaurant":3,
+		"name":"Wildscape Chimichurri Chicken",
+		"calories":430,
+		"protein":24,
+		"price":1.3,
+		"breakfast":false
+	},
+	{
+		"restaurant":3,
+		"name":"1lb of broccoli florets",
+		"calories":120,
+		"protein":16,
+		"price":1.3,
+		"breakfast":false
+	},
 ];
 
 var restaurants = {

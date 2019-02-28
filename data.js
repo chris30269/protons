@@ -1104,6 +1104,22 @@ var food = [
 		"price":1.3,
 		"breakfast":false
 	},
+	{
+		"restaurant":3,
+		"name":"Light n Fit Greek Yogurt",
+		"calories":80,
+		"protein":12,
+		"price":1.3,
+		"breakfast":false
+	},
+	{
+		"restaurant":3,
+		"name":"Kroger Cheese Pizza",
+		"calories":1740,
+		"protein"78,
+		"price":1.3,
+		"breakfast":false
+	},
 ];
 
 var restaurants = {

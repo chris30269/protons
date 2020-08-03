@@ -1120,6 +1120,22 @@ var food = [
 		"price":1.3,
 		"breakfast":false
 	},
+	{
+		"restaurant":3,
+		"name":"Redcon1 Dutch Apple Pie MRE",
+		"calories":490,
+		"protein":47,
+		"price":1.3,
+		"breakfast":false
+	},
+	{
+		"restaurant":3,
+		"name":"1/2 Redcon1 Dutch Apple Pie MRE w/ 1 cup CARBmaster",
+		"calories":305,
+		"protein":34,
+		"price":1.3,
+		"breakfast":false
+	},
 ];
 
 var restaurants = {
